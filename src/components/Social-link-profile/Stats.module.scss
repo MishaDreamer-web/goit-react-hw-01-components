@@ -1,0 +1,38 @@
+.stats {
+  color: black;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  .statsItem {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background: whitesmoke;
+
+    padding-top: 30px;
+
+    height: 60px;
+    width: 90px;
+
+    border: 1px solid tomato;
+    border-radius: 55px;
+  }
+
+  .label {
+    color: blueviolet;
+  }
+
+  .quantity {
+    color: cadetblue;
+
+    font-weight: 700;
+    font-size: 24px;
+  }
+}

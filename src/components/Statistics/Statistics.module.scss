@@ -1,0 +1,38 @@
+.statistics {
+  border: 1px solid tomato;
+  border-radius: 5px;
+
+  width: 450px;
+  margin: 10px;
+
+  .tittle {
+    font-weight: 700;
+    color: grey;
+    text-transform: uppercase;
+  }
+
+  .statList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 450px;
+  }
+
+  .item {
+    color: honeydew;
+
+    list-style: none;
+
+    padding-top: 20px;
+
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    border: 1px solid paleturquoise;
+    border-radius: 5px;
+  }
+}

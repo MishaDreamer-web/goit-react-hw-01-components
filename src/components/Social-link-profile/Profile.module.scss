@@ -1,0 +1,32 @@
+body {
+  background-color: #af85d2;
+  font-family: 'Kalam', cursive;
+}
+
+.profile {
+  color: lime;
+  text-align: center;
+
+  border: 1px solid paleturquoise;
+  border-radius: 15px;
+
+  width: 400px;
+  box-shadow: 0 0 30px rgba(255, 107, 8, 1);
+  margin: 10px;
+  padding: 25px;
+
+  .avatar {
+    height: 180px;
+
+    margin: 50px 0 20px;
+    border-radius: 80px;
+
+    background-color: white;
+  }
+
+  .name {
+    font-size: 26px;
+    font-weight: 700;
+    color: lime;
+  }
+}
